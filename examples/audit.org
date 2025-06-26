@@ -1,0 +1,102 @@
+* Solidity Metrics Report
+
+#+BEGIN_SRC text
+* Table of contents
+- [Scope](#t-scope)
+    - [Source Units in Scope](#t-source-Units-in-Scope)
+        - [Deployable Logic Contracts](#t-deployable-contracts)
+    - [Out of Scope](#t-out-of-scope)
+        - [Excluded Source Units](#t-out-of-scope-excluded-source-units)
+        - [Duplicate Source Units](#t-out-of-scope-duplicate-source-units)
+        - [Doppelganger Contracts](#t-out-of-scope-doppelganger-contracts)
+- [Report Overview](#t-report)
+    - [Risk Summary](#t-risk)
+    - [Source Lines](#t-source-lines)
+    - [Inline Documentation](#t-inline-documentation)
+    - [Components](#t-components)
+    - [Exposed Functions](#t-exposed-functions)
+    - [StateVariables](#t-statevariables)
+    - [Capabilities](#t-capabilities)
+    - [Dependencies](#t-package-imports)
+    - [Totals](#t-totals)
+** Scope
+This section lists files that are in scope for the metrics report. 
+- **Project:** `'CLI'`
+- **Included Files:** 
+    - ``
+- **Excluded Paths:** 
+    - ``
+- **File Limit:** `undefined`
+    - **Exclude File list Limit:** `undefined`
+- **Workspace Repository:** `unknown` (`undefined`@`undefined`)
+*** Source Units in Scope
+Source Units Analyzed: **`1`**
+Source Units in Scope: **`1`** (**100%**)
+| Type | File   | Logic Contracts | Interfaces | Lines | nLines | nSLOC | Comment Lines | Complex. Score | Capabilities |
+| ---- | ------ | --------------- | ---------- | ----- | ------ | ----- | ------------- | -------------- | ------------ | 
+| 📝 | PasswordStore.sol | 1 | **** | 41 | 41 | 20 | 15 | 10 | **** |
+| 📝 | **Totals** | **1** | **** | **41**  | **41** | **20** | **15** | **10** | **** |
+***** Deployable Logic Contracts
+Total: 1
+* 📝 `PasswordStore`
+**** Out of Scope
+***** Excluded Source Units
+Source Units Excluded: **`0`**
+[➕]
+***** Duplicate Source Units
+Duplicate Source Units Excluded: **`0`** 
+[➕]
+***** Doppelganger Contracts
+Doppelganger Contracts: **`0`** 
+[➕]
+** Report
+*** Overview
+The analysis finished with **`0`** errors and **`0`** duplicate files.
+**** Risk
+**** Source Lines (sloc vs. nsloc)
+**** Inline Documentation
+- **Comment-to-Source Ratio:** On average there are`1.33` code lines per comment (lower=better).
+- **ToDo's:** `0` 
+**** Components
+| 📝Contracts   | 📚Libraries | 🔍Interfaces | 🎨Abstract |
+| ------------- | ----------- | ------------ | ---------- |
+| 1 | 0  | 0  | 0 |
+**** Exposed Functions
+This section lists functions that are explicitly declared public or payable. Please note that getter methods for public stateVars are not included.  
+| 🌐Public   | 💰Payable |
+| ---------- | --------- |
+| 2 | 0  | 
+| External   | Internal | Private | Pure | View |
+| ---------- | -------- | ------- | ---- | ---- |
+| 2 | 2  | 0 | 0 | 1 |
+**** StateVariables
+| Total      | 🌐Public  |
+| ---------- | --------- |
+| 2  | 0 |
+**** Capabilities
+| Solidity Versions observed | 🧪 Experimental Features | 💰 Can Receive Funds | 🖥 Uses Assembly | 💣 Has Destroyable Contracts | 
+| -------------------------- | ------------------------ | -------------------- | ---------------- | ---------------------------- |
+| `0.8.18` |  | **** | **** | **** | 
+| 📤 Transfers ETH | ⚡ Low-Level Calls | 👥 DelegateCall | 🧮 Uses Hash Functions | 🔖 ECRecover | 🌀 New/Create/Create2 |
+| ---------------- | ----------------- | --------------- | ---------------------- | ------------ | --------------------- |
+| **** | **** | **** | **** | **** | **** | 
+| ♻️ TryCatch | Σ Unchecked |
+| ---------- | ----------- |
+| **** | **** |
+**** Dependencies / External Imports
+| Dependency / Import Path | Count  | 
+| ------------------------ | ------ |
+**** Totals
+***** Summary
+***** AST Node Statistics
+****** Function Calls
+****** Assembly Calls
+****** AST Total
+***** Inheritance Graph
+[➕]
+***** CallGraph
+[➕]
+****** Contract Summary
+[➕]
+____
+#+END_SRC
