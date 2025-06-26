@@ -1,6 +1,6 @@
 # Solidity Auditor Report Tool
 
-This is a simple Python script that automates the generation of code metric reports for smart contracts using [solidity-code-metrics](https://github.com/Consensys/surya-metrics) and outputs them in Org-mode format.
+This is a simple Python script that automates the generation of code metric reports for smart contracts using [solidity-code-metrics](https://github.com/ConsenSysDiligence/solidity-metrics) and outputs them in Org-mode format.
 
 ## Features
 
